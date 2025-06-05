@@ -163,3 +163,33 @@ export const SearchIcon = () => (
         </defs>
     </svg>
 );
+
+export const ArrowLeftIcon = ({ color = "#fff" }) => (
+    <svg
+        width={26}
+        height={23}
+        viewBox="0 0 26 23"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M25.8749 10.125H5.81916L13.097 2.84714L11.1528 0.902893L0.555664 11.5L11.1528 22.0971L13.097 20.1529L5.81916 12.875H25.8749V10.125Z"
+            fill={color}
+        />
+    </svg>
+);
+
+export const ArrowRightIcon = ({ color = '#fff' }) => (
+    <svg
+        width={26}
+        height={23}
+        viewBox="0 0 26 23"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M0.125086 10.125H20.1808L12.903 2.84714L14.8472 0.902893L25.4443 11.5L14.8472 22.0971L12.903 20.1529L20.1808 12.875H0.125086V10.125Z"
+            fill={color}
+        />
+    </svg>
+);

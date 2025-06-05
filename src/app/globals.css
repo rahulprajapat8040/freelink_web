@@ -5,6 +5,7 @@
   --foreground: #171717;
   --grayLight: #d4d4d4;
   --grayDark: #8d918e;
+  --grayExtraDark: #252525;
   --skyLight: #ddffff;
   --blue: #1e88e5;
 }
@@ -15,6 +16,7 @@
   --color-gray-light: var(--grayLight);
   --color-gray-dark: var(--grayDark);
   --color-sky-light: var(--skyLight);
+  --color-gray-extra-dark: var(--grayExtraDark);
   --color-blue-primary: var(--blue);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

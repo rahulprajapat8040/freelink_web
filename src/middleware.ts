@@ -10,13 +10,14 @@ export function middleware(request: NextRequest) {
   const isProtectedPage =
     pathname.startsWith('/dashboard') ||
     pathname.startsWith('/profile') ||
-    pathname.startsWith('/vault')
+    pathname.startsWith('/vault') ||
+    pathname === '/'
   if (!accessToken && isAuthPage) {
     return NextResponse.next()
   }
 
   if (accessToken && isAuthPage) {
-    return NextResponse.redirect(new URL('/', request.url))
+    return NextResponse.redirect(new URL('/home', request.url))
   }
 
   if (!accessToken && isProtectedPage) {

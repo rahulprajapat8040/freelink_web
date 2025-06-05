@@ -1,0 +1,3 @@
+module: user page
+features: added get user api , created page, auth middleware
+author: Rahul prajapat, June-5 10:03 pm
