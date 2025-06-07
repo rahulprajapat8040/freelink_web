@@ -13,9 +13,9 @@ export class GETAPI {
         }
     }
 
-    static getLoggedInUser = async () => {
+    static getLoggedInFreelancer = async () => {
         try {
-            const res = await api.get(APICONST.LOGGED_IN_USER)
+            const res = await api.get(APICONST.LOGGED_IN_FREELANCER)
             if (res.data.success) {
                 return res.data
             }
